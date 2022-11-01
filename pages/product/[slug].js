@@ -15,7 +15,7 @@ const ProductDetails = ({ product, products }) => {
 
     setShowCart(true);
   }
-  const { decQty, incQty, qty, onAdd } = useStateContext();
+  const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
   return (
     <div>
